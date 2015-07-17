@@ -46,11 +46,11 @@ void loop() {
       charCount = 0;
       if (strcmp(commandLEDOn, command) == 0) {
         digitalWrite(led, HIGH);
-        Serial2.println("replyOK");
+        Serial2.println(replyOK);
       }
       else if (strcmp(commandLEDOff, command) == 0) {
         digitalWrite(led, LOW);
-        Serial2.println("replyOK");
+        Serial2.println(replyOK);
       }
     }
   }
