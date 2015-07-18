@@ -1,8 +1,12 @@
 # proto2
-code pour le 2nd prototype du robot moti
---
-utilisation de nodeJS pour la communication serie
+## Code pour le 2nd prototype du robot moti
 
---> npm install --save serialport
+### Utilisation de nodeJS pour la communication serie et le serveur WEB.
+
+Configurations requises
+
+* *npm* install --save serialport
+* *npm* install express
+* *npm* install socket.io
 
 (pour l'instant ce n'est que du dépot de fichiers pour du test)
