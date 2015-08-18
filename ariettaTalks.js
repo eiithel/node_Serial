@@ -3,7 +3,7 @@ var SerialPort = serialport.SerialPort;
 
 var command = process.argv[2];
 
-var serialPort = new SerialPort("/dev/ttyS2", {
+var serialPort = new SerialPort("/dev/ttyS1", {
   baudrate: 9600,
   dataBits: 8,
   parity: 'none',
