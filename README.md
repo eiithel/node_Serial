@@ -1,12 +1,15 @@
-# proto2
+# Serial communication 
 ## Code pour le 2nd prototype du robot moti
 
 ### Utilisation de nodeJS pour la communication serie et le serveur WEB.
 
-Configurations requises
+System requirements:    
+
+Firstable, you have to install several modules:
 
 * *npm* install --save serialport
 * *npm* install express
 * *npm* install socket.io
 
-(pour l'instant ce n'est que du dépot de fichiers pour du test)
+ It will install all the necessary assets for the serialport library.   
+ `Express` and socket.io would be usefull if you want to remotely control your robot with your phone or from a dedicated webpage.
