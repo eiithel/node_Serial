@@ -21,13 +21,14 @@ Firstable, you have to install several modules:
  
  To switch off the led 13 on the **Teensy**.
  
- Of course, you have also toupload the code on the Arietta : `teensyLed.c`
+ Of course, you have also to upload the code on the Arietta : `teensyLed.c`
  
  
  > $ node readdatas.js 
  
  To read datas coming from the Teensy
  
+ -----
  Watch what is happening with a little:
  > $ screen /dev/ttyS1 -b 9600
  
